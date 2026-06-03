@@ -1,0 +1,16 @@
+{
+  "app_name": "RN Base",
+  "ok": "OK",
+  "cancel": "Hủy",
+  "confirm": "Xác nhận",
+  "save": "Lưu",
+  "delete": "Xóa",
+  "edit": "Chỉnh sửa",
+  "close": "Đóng",
+  "back": "Quay lại",
+  "retry": "Thử lại",
+  "loading": "Đang tải...",
+  "error_generic": "Đã có lỗi xảy ra. Vui lòng thử lại.",
+  "error_network": "Không có kết nối mạng.",
+  "empty_data": "Không có dữ liệu."
+}

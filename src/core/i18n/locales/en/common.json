@@ -1,0 +1,16 @@
+{
+  "app_name": "RN Base",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "close": "Close",
+  "back": "Back",
+  "retry": "Retry",
+  "loading": "Loading...",
+  "error_generic": "Something went wrong. Please try again.",
+  "error_network": "No internet connection.",
+  "empty_data": "No data available."
+}
