@@ -46,7 +46,7 @@ ios/*.hmap
 ios/*.ipa
 ios/*.dSYM.zip
 ios/*.dSYM
-ios/xcuserdata/
+ios/**/xcuserdata/
 ios/**/*.xccheckout
 ios/**/*.moved-aside
 ios/tmp/
