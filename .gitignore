@@ -29,6 +29,8 @@ android/*.iml
 android/captures/
 android/.externalNativeBuild/
 android/.cxx/
+android/app/.cxx/
+.cxx/
 # Keep debug.keystore in VCS so team can build debug
 # android/app/debug.keystore
 android/app/release/
