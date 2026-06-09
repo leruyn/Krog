@@ -11,6 +11,7 @@ import {authActions} from '@features/auth/store/authSlice';
 import {ThemeProvider, useTheme} from '@core/theme/themeProvider';
 import {AuthBootstrap} from '@features/auth/components/AuthBootstrap';
 import {saveTokens, clearTokens} from '@features/auth/services/tokenStorage';
+import {KrogStateProvider} from '@features/krog';
 
 // Wire up ApiClient auth callbacks to Redux store
 apiClient.configureAuth({
@@ -65,7 +66,9 @@ export function AppProviders({children}: PropsWithChildren) {
               <AuthBootstrap />
               {/* [FEATURE]: add more Bootstrap components here */}
               <ThemedStatusBar />
-              {children}
+              <KrogStateProvider>
+                {children}
+              </KrogStateProvider>
             </ThemeProvider>
           </QueryClientProvider>
         </ReduxProvider>

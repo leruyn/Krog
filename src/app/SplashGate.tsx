@@ -97,7 +97,11 @@ export function SplashGate({children}: Props) {
 const styles = StyleSheet.create({
   root: {flex: 1, overflow: 'hidden'},
   overlay: {
-    ...StyleSheet.absoluteFillObject,
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
     zIndex: 9999,
     elevation: 9999,
   },

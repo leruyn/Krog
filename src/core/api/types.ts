@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import {InternalAxiosRequestConfig} from 'axios';
 
 // Augment Axios types to support custom flags

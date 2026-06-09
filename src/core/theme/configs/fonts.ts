@@ -40,6 +40,7 @@ export const fontFamilies = {
   italic: 'Inter-Italic',
   mediumItalic: 'Inter-MediumItalic',
   boldItalic: 'Inter-BoldItalic',
+  pangolin: 'Pangolin-Regular',
 } as const;
 
 export const fontFamilyByWeight: Record<string, string> = {
