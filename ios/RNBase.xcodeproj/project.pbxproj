@@ -13,6 +13,7 @@
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		90441C42E0354E95BC1A2C32 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F85B9E9806F43BA80B796A6 /* Colors.xcassets */; };
 		B8AF1DFA710A46C7BFFC6DD4 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4884C84BBBB5452EA68D0419 /* BootSplash.storyboard */; };
+		F1D9DF4C0952482B9BC85B37 /* Pangolin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D007266E7304496088475492 /* Pangolin-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5709B34CF0A7D63546082F79 /* Pods-RNBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBase.release.xcconfig"; path = "Target Support Files/Pods-RNBase/Pods-RNBase.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RNBase/AppDelegate.swift; sourceTree = "<group>"; };
+		D007266E7304496088475492 /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pangolin-Regular.ttf"; path = "../assets/fonts/Pangolin-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		412E31BBD9654CEFAAA95F71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D007266E7304496088475492 /* Pangolin-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +89,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				412E31BBD9654CEFAAA95F71 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -165,6 +177,7 @@
 				02E84D84BE87077531A1D25D /* PrivacyInfo.xcprivacy in Resources */,
 				B8AF1DFA710A46C7BFFC6DD4 /* BootSplash.storyboard in Resources */,
 				90441C42E0354E95BC1A2C32 /* Colors.xcassets in Resources */,
+				F1D9DF4C0952482B9BC85B37 /* Pangolin-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

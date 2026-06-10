@@ -33,13 +33,13 @@ export const fontWeights = {
  * Using system default (undefined) means the OS default sans-serif is used.
  */
 export const fontFamilies = {
-  regular: 'Inter-Regular',
-  medium: 'Inter-Medium',
-  semiBold: 'Inter-SemiBold',
-  bold: 'Inter-Bold',
-  italic: 'Inter-Italic',
-  mediumItalic: 'Inter-MediumItalic',
-  boldItalic: 'Inter-BoldItalic',
+  regular: 'Pangolin-Regular',
+  medium: 'Pangolin-Regular',
+  semiBold: 'Pangolin-Regular',
+  bold: 'Pangolin-Regular',
+  italic: 'Pangolin-Regular',
+  mediumItalic: 'Pangolin-Regular',
+  boldItalic: 'Pangolin-Regular',
   pangolin: 'Pangolin-Regular',
 } as const;
 

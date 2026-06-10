@@ -4,13 +4,11 @@ let lastSmashVibeTime = 0;
 let lastScratchVibeTime = 0;
 
 export function playClickVibe(enabled: boolean = true) {
-  if (!enabled) return;
-  Vibration.vibrate(8);
+  // Disabled for optimization (vibrate on rock smashing only)
 }
 
 export function playChiselVibe(enabled: boolean = true) {
-  if (!enabled) return;
-  Vibration.vibrate(15);
+  // Disabled for optimization (vibrate on rock smashing only)
 }
 
 export function playSmashVibe(enabled: boolean = true) {
@@ -23,10 +21,5 @@ export function playSmashVibe(enabled: boolean = true) {
 }
 
 export function playScratchVibe(enabled: boolean = true) {
-  if (!enabled) return;
-  const now = Date.now();
-  if (now - lastScratchVibeTime > 100) {
-    Vibration.vibrate(5);
-    lastScratchVibeTime = now;
-  }
+  // Disabled for optimization (vibrate on rock smashing only)
 }
